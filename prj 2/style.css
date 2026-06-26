@@ -1,0 +1,143 @@
+/* @link https://utopia.fyi/space/calculator?c=368,18,1.2,1600,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+    --space-3xs: clamp(0.3125rem, 0.3125rem + 0vw, 0.3125rem);
+    --space-2xs: clamp(0.5625rem, 0.5438rem + 0.0812vw, 0.625rem);
+    --space-xs: clamp(0.875rem, 0.8563rem + 0.0812vw, 0.9375rem);
+    --space-s: clamp(1.125rem, 1.0877rem + 0.1623vw, 1.25rem);
+    --space-m: clamp(1.6875rem, 1.6315rem + 0.2435vw, 1.875rem);
+    --space-l: clamp(2.25rem, 2.1753rem + 0.3247vw, 2.5rem);
+    --space-xl: clamp(3.375rem, 3.263rem + 0.487vw, 3.75rem);
+    --space-2xl: clamp(4.5rem, 4.3506rem + 0.6494vw, 5rem);
+    --space-3xl: clamp(6.75rem, 6.526rem + 0.974vw, 7.5rem);
+
+    /* One-up pairs */
+    --space-3xs-2xs: clamp(0.3125rem, 0.2192rem + 0.4058vw, 0.625rem);
+    --space-2xs-xs: clamp(0.5625rem, 0.4505rem + 0.487vw, 0.9375rem);
+    --space-xs-s: clamp(0.875rem, 0.763rem + 0.487vw, 1.25rem);
+    --space-s-m: clamp(1.125rem, 0.901rem + 0.974vw, 1.875rem);
+    --space-m-l: clamp(1.6875rem, 1.4448rem + 1.0552vw, 2.5rem);
+    --space-l-xl: clamp(2.25rem, 1.8019rem + 1.9481vw, 3.75rem);
+    --space-xl-2xl: clamp(3.375rem, 2.8896rem + 2.1104vw, 5rem);
+    --space-2xl-3xl: clamp(4.5rem, 3.6039rem + 3.8961vw, 7.5rem);
+
+    /* Custom pairs */
+    --space-s-l: clamp(1.125rem, 0.7143rem + 1.7857vw, 2.5rem);
+
+    /* --- Bakery Palette Variables --- */
+    --color-almond-silk: #F5D3C8;
+    /* Main background, product cards, warm canvas */
+    --color-charcoal: #565857;
+    /* Primary text, headings, dark UI elements */
+    --color-mauve-shadow: #734B5E;
+    /* Accent color, CTA buttons, active links, badges */
+    --color-grey-olive: #8A8D91;
+    /* Secondary text, icons, meta-information */
+    --color-pale-slate: #BCBDC0;
+    /* Card borders, dividers, subtle hover states */
+
+    /* --- Semantic UI Mapping (Recommended Usage) --- */
+    --bg-primary: var(--color-almond-silk);
+    --text-primary: var(--color-charcoal);
+    --text-secondary: var(--color-grey-olive);
+    --action-color: var(--color-mauve-shadow);
+    --border-color: var(--color-pale-slate);
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    /* outline: 1px solid red; */
+    box-sizing: border-box;
+}
+
+@media(min-width:320px) {
+
+    .sort {
+        margin: 1rem;
+        color: var(--text-primary);
+        font-weight: 900;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+        background-color: var(--bg-primary);
+    }
+
+    header {
+        text-align: center;
+        margin: 1rem;
+    }
+
+    main {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+    }
+
+    h1 {
+        color: var(--text-primary);
+        margin: 1rem;
+    }
+
+    .sub-text {
+        color: var(--text-secondary);
+    }
+
+    .product {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .product>img {
+        height: 60%;
+        width: 60%;
+    }
+
+    .product>p:not(.sub-text) {
+        color: var(--text-primary);
+        font-weight: 900;
+    }
+
+    .product>button {
+        width: fit-content;
+        padding: 1rem;
+        background-color: transparent;
+        border: 2px solid var(--border-color);
+        border-radius: 10px;
+        font-weight: bolder;
+        color: var(--text-primary);
+    }
+
+    footer {
+        margin-top: 1rem;
+        background-color: var(--action-color);
+        padding: 3rem;
+        text-align: center;
+        color: var(--bg-primary);
+    }
+
+    @media(min-width: 1200px) {
+        main {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .product>img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+}
