@@ -57,6 +57,10 @@ A searchable movie application that will filter locally stored movie data based 
 
 An interactive employee directory that will display employee information dynamically and allow users to manage employee cards using JavaScript.
 
+### Project 6 – Employee Directory *(Coming Soon)*
+
+An interactive employee directory that dynamically displays employee information and allows users to search, add, and remove employee cards using JavaScript.
+
 ## Learning Outcome
 
 By the end of Week 4, I will have a stronger understanding of working with arrays and objects, using higher-order array methods, manipulating the DOM dynamically, and building interactive JavaScript applications with searchable, filterable, and dynamically generated user interfaces.
