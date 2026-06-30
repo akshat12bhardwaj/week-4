@@ -35,9 +35,19 @@ A simple Student Directory application that dynamically displays student informa
 
 
 
-### Project 2 – Product Filter App *(Coming Soon)*
+### Project 2 – Product Filter App
 
-A product filtering application that will allow users to display products based on selected categories while practicing JavaScript array methods and dynamic rendering.
+A product filtering application that allows users to display products based on selected price ranges while practicing JavaScript array methods and dynamic UI rendering.
+
+**Concepts Practiced:**
+
+- Arrays of Objects
+- Object Property Access
+- filter()
+- forEach()
+- Event Listeners
+- DOM Manipulation
+- Dynamic UI Rendering
 
 
 
