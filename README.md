@@ -51,9 +51,22 @@ A product filtering application that allows users to display products based on s
 
 
 
-### Project 3 – User Card Generator *(Coming Soon)*
+### Project 3 – User Card Generator
 
-A project that will dynamically generate user profile cards from JavaScript objects to strengthen DOM manipulation and template literal concepts.
+A dynamic user card generator that creates developer profile cards from an array of objects. The application renders user information, skills, experience, and GitHub profile links using reusable functions and JavaScript DOM manipulation.
+
+**Concepts Practiced:**
+
+- Arrays of Objects
+- Object Destructuring
+- Object Property Access
+- `forEach()`
+- Functions
+- Template Literals
+- DOM Manipulation
+- Dynamic UI Rendering
+- Dynamic Element Creation
+- External Links (`<a>`)
 
 
 
