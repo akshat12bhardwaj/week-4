@@ -70,9 +70,28 @@ A dynamic user card generator that creates developer profile cards from an array
 
 
 
-### Project 4 – Movie Search (Local Data) *(Coming Soon)*
+### Project 4 – Movie Search & Sort App
 
-A searchable movie application that will filter locally stored movie data based on user input and update results dynamically.
+A dynamic movie search and sorting application that allows users to search movies by title or IMDb rating and sort them alphabetically or by rating while practicing JavaScript array methods, search logic, and dynamic DOM rendering.
+
+**Concepts Practiced:**
+
+- Arrays of Objects
+- Object Destructuring
+- Object Property Access
+- `filter()`
+- `forEach()`
+- `includes()`
+- `toLowerCase()`
+- `toString()`
+- Event Listeners
+- Functions
+- DOM Manipulation
+- Dynamic UI Rendering
+- Dynamic Element Creation
+- Bubble Sort Algorithm
+- `localeCompare()`
+- Array Copying (Spread Operator)
 
 
 
