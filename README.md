@@ -95,9 +95,24 @@ A dynamic movie search and sorting application that allows users to search movie
 
 
 
-### Project 5 – Employee Directory *(Coming Soon)*
+### Project 5 – Expense Summary Dashboard
 
-An interactive employee directory that will display employee information dynamically and allow users to manage employee cards using JavaScript.
+A dynamic expense summary dashboard that displays expense categories, calculates the total and average expenses, identifies the highest expense, and shows each category's percentage contribution while practicing JavaScript data manipulation and dynamic DOM rendering.
+
+**Concepts Practiced:**
+
+- Arrays of Objects
+- Object Destructuring
+- Object Property Access
+- `forEach()`
+- Functions
+- Conditional Logic (`if`)
+- Arithmetic Calculations
+- Percentage Calculations
+- Template Literals
+- DOM Manipulation
+- Dynamic UI Rendering
+- Dynamic Element Creation
 
 ### Project 6 – Employee Directory *(Coming Soon)*
 
