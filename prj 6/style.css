@@ -1,0 +1,145 @@
+/* @link https://utopia.fyi/space/calculator?c=320,14,1.2,1600,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+    --space-3xs: clamp(0.25rem, 0.2344rem + 0.0781vw, 0.3125rem);
+    --space-2xs: clamp(0.4375rem, 0.3906rem + 0.2344vw, 0.625rem);
+    --space-xs: clamp(0.6875rem, 0.625rem + 0.3125vw, 0.9375rem);
+    --space-s: clamp(0.875rem, 0.7813rem + 0.4688vw, 1.25rem);
+    --space-m: clamp(1.3125rem, 1.1719rem + 0.7031vw, 1.875rem);
+    --space-l: clamp(1.75rem, 1.5625rem + 0.9375vw, 2.5rem);
+    --space-xl: clamp(2.625rem, 2.3438rem + 1.4063vw, 3.75rem);
+    --space-2xl: clamp(3.5rem, 3.125rem + 1.875vw, 5rem);
+    --space-3xl: clamp(5.25rem, 4.6875rem + 2.8125vw, 7.5rem);
+
+    /* One-up pairs */
+    --space-3xs-2xs: clamp(0.25rem, 0.1563rem + 0.4688vw, 0.625rem);
+    --space-2xs-xs: clamp(0.4375rem, 0.3125rem + 0.625vw, 0.9375rem);
+    --space-xs-s: clamp(0.6875rem, 0.5469rem + 0.7031vw, 1.25rem);
+    --space-s-m: clamp(0.875rem, 0.625rem + 1.25vw, 1.875rem);
+    --space-m-l: clamp(1.3125rem, 1.0156rem + 1.4844vw, 2.5rem);
+    --space-l-xl: clamp(1.75rem, 1.25rem + 2.5vw, 3.75rem);
+    --space-xl-2xl: clamp(2.625rem, 2.0313rem + 2.9688vw, 5rem);
+    --space-2xl-3xl: clamp(3.5rem, 2.5rem + 5vw, 7.5rem);
+
+    /* Custom pairs */
+    --space-s-l: clamp(0.875rem, 0.4688rem + 2.0313vw, 2.5rem);
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    /* outline: 1px solid red; */
+    box-sizing: border-box;
+}
+
+@media(min-width:320px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    header {
+        text-align: center;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    header>h1 {
+        font-size: var(--space-xl);
+    }
+
+    #search{
+        margin: 1rem;
+        padding: 0 1rem;
+        width: 80vw;
+    }
+
+    header>div{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    header>div>button{
+        padding: 0.5rem 2rem;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        align-items: center;
+        width: 50vw;
+        background-color: grey ;
+        justify-content: center;
+        border-radius: 25px;
+    }
+
+    form>div{
+        display: flex;
+        width:100%;
+        justify-content: space-between;
+    }
+
+    form>button{
+        width: fit-content;
+        padding: 0.5rem 2rem;
+    }
+
+    main>div {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem;
+        gap: var(--space-l-xl);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .employ_card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        gap: 1rem;
+        border-radius: 25px;
+        transition: all 0.7s ease;
+    }
+
+    .employ_card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 10px 15px 5px white;
+    }
+
+    /* Department Text Colors Only */
+
+    .dept-engineering {
+        color: #137333;
+    }
+
+    .dept-operations {
+        color: #b06000;
+    }
+
+    .dept-design {
+        color: #7627bb;
+    }
+
+    .dept-analytics {
+        color: #1a73e8;
+    }
+
+    .dept-human-resources {
+        color: #c5221f;
+    }
+
+    .dept-marketing {
+        color: #007b83;
+    }
+
+    
+}
