@@ -114,9 +114,29 @@ A dynamic expense summary dashboard that displays expense categories, calculates
 - Dynamic UI Rendering
 - Dynamic Element Creation
 
-### Project 6 – Employee Directory *(Coming Soon)*
+### Project 6 – Employee Directory
 
-An interactive employee directory that dynamically displays employee information and allows users to search, add, and remove employee cards using JavaScript.
+A dynamic employee directory that displays employee information, allows users to search employees in real time, add new employee records through a form, and remove employee cards while practicing JavaScript array methods, form handling, and dynamic DOM manipulation.
+
+**Concepts Practiced:**
+
+- Arrays of Objects
+- Object Destructuring
+- Object Property Access
+- `map()`
+- `filter()`
+- `push()`
+- `splice()`
+- `indexOf()`
+- Event Listeners
+- Functions
+- Form Handling
+- FormData API
+- Conditional Logic (`if`)
+- Template Literals
+- DOM Manipulation
+- Dynamic UI Rendering
+- Dynamic Element Creation
 
 ## Learning Outcome
 
